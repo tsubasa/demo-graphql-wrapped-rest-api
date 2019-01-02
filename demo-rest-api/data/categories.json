@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "MENS"
+    },
+    {
+      "id": 2,
+      "name": "WOMENS"
+    },
+    {
+      "id": 3,
+      "name": "KIDS"
+    }
+  ]
+}

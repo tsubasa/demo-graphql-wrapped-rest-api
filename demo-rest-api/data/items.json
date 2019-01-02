@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Tシャツ",
+      "price": 1000,
+      "categoryId": 1,
+      "specIds": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "パンツ",
+      "price": 2000,
+      "categoryId": 2,
+      "specIds": [1]
+    },
+    {
+      "id": 3,
+      "name": "ソックス",
+      "price": 300,
+      "categoryId": 3,
+      "specIds": [1, 2]
+    }
+  ]
+}

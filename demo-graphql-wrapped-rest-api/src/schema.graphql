@@ -1,0 +1,28 @@
+type Query {
+  items: [Item!]!
+  item(id: ID!): Item
+}
+
+type Item {
+  id: ID!
+  name: String!
+  price: Int!
+  category: Category!
+  specs: [Spec!]!
+}
+
+type Category {
+  id: ID!
+  name: String!
+}
+
+type Spec {
+  id: ID!
+  name: String!
+  value: [SpecValue!]!
+}
+
+type SpecValue {
+  id: ID!
+  value: String!
+}

@@ -1,0 +1,17 @@
+{
+  "name": "demo-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -l tcp://localhost:4001 src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "microrouter": "^3.1.3"
+  }
+}
